@@ -1,0 +1,20 @@
+Name:		simintech
+Version:	1.0.0.0
+Release:	0.%{?DISTR_NAME}
+Summary:	SimInTech (Simulation In Technic) is an environment for the development of mathematical models, control algorithms, control interfaces and automatic code generation for control controllers and graphic displays.
+Summary(ru):	SimInTech (Simulation In Technic) – среда разработки математических моделей, алгоритмов управления, интерфейсов управления и автоматической генерации кода для контроллеров управления и графических дисплеев.
+
+Group:		Sciences/Other
+License:	3VServices
+URL:		http://simintech.ru/index.html
+Source0:	config.tar.gz
+Source1:	simintech.desktop
+#patch0:		update-package-export-to-support-DESTDIR.diff
+#patch1:		update-paths-for-FHS.diff
+#собираем проект, внутри свои либы... А при установке эти либы не нужно искать на стандартных местах.
+AutoReqProv:    no
+Autoprov: 0
+
+##  Зависимости
+BuildRequires:  glibc 
+

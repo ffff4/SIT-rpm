@@ -1,0 +1,5 @@
+
+%postun 
+rm -rf /opt/simintech/ 
+rm -f /usr/share/applications/simintech.desktop
+#rm -f /usr/share/Desktop/simintech.desktop

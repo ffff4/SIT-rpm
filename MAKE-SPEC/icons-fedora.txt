@@ -1,0 +1,18 @@
+
+#Icon
+mkdir -p %{buildroot}/usr
+mkdir -p %{buildroot}/usr/share/
+mkdir -p %{buildroot}/usr/share/applications/
+cp -f %{_sourcedir}/simintech.desktop %{buildroot}/usr/share/applications/
+
+mkdir -p %{buildroot}/usr/share/icons/
+mkdir -p %{buildroot}/usr/share/icons/hicolor/
+mkdir -p %{buildroot}/usr/share/icons/hicolor/48x48/
+mkdir -p %{buildroot}/usr/share/icons/hicolor/48x48/apps
+mkdir -p %{buildroot}/usr/share/icons/hicolor/64x64/
+mkdir -p %{buildroot}/usr/share/icons/hicolor/64x64/apps
+mkdir -p %{buildroot}/usr/share/icons/hicolor/128x128/
+mkdir -p %{buildroot}/usr/share/icons/hicolor/128x128/apps
+cp -f %{_sourcedir}/48x48/simintech.png %{buildroot}/usr/share/icons/hicolor/48x48/apps
+cp -f %{_sourcedir}/64x64/simintech.png %{buildroot}/usr/share/icons/hicolor/64x64/apps
+cp -f %{_sourcedir}/128x128/simintech.png %{buildroot}/usr/share/icons/hicolor/128x128/apps

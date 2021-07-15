@@ -1,0 +1,3 @@
+
+Requires:	libGLU
+Requires:	shared-desktop-icons

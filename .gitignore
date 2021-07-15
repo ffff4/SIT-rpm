@@ -1,0 +1,8 @@
+BUILD/*/
+BUILDROOT/
+RPMS/*/
+SRPMS/*.rpm
+.DS_Store
+.lesshst
+.viminfo
+SOURCES/simintech_rus_linux.tgz

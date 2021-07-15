@@ -1,0 +1,9 @@
+
+%files
+/opt/simintech/*
+#Icon
+/usr/share/applications/simintech.desktop
+/usr/share/icons/hicolor/48x48/apps/simintech.png
+/usr/share/icons/hicolor/64x64/apps/simintech.png
+/usr/share/icons/hicolor/128x128/apps/simintech.png
+
